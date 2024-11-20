@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بوابة التعليم - محمد الكيلاني</title>
+    <link rel="stylesheet" href="knowledge window.css">
+</head>
+<body>
+    <header>
+        <h1>بوابة التعليم</h1>
+        <p> موقع تعليمي لدعم الطلاب، صُنع بواسطة محمد الكيلاني، طالب في الصف الأول الثانوي لغات، مدرسة نجيب محفوظ الرسمية المتميزة للغات </p>
+    </header>
+
+    <main>
+        <!-- قسم اللغة العربية -->
+        <section class="subject-section">
+            <h2>اللغة العربية</h2>
+            <p>أهلاً بك في قسم اللغة العربية. هنا سنتعلم أهم القواعد والمفردات</p>
+            <ul>
+                <li><strong>قواعد النحو:</strong> تعلم الفرق بين الفاعل والمفعول به</li>
+                <li><strong>المفردات:</strong> أهم الكلمات المستخدمة يوميًا</li>
+                <li><strong>التعبير:</strong> كتابة فقرة قصيرة عن موضوع مثل "أهمية القراءة"</li>
+            </ul>
+            <button class="subject-btn" onclick="playAudio('arabic')"><a href="اللغة العربية/اللغة العربية.html">استمع</a></button>
+            <audio id="arabic" src="audio/arabic_lesson.mp3"></audio>
+        </section>
+
+
+        <!-- قسم الرياضيات -->
+        <section class="subject-section">
+            <h2>الرياضيات</h2>
+            <p>مرحبًا بك في قسم الرياضيات. سنتعلم أساسيات العمليات الحسابية.</p>
+            <ul>
+                <li><strong>الجمع والطرح:</strong> 5 + 3 = 8.</li>
+                <li><strong>الضرب والقسمة:</strong> 4 × 2 = 8، 8 ÷ 2 = 4.</li>
+                <li><strong>المعادلات:</strong> حل معادلة بسيطة: x + 3 = 7.</li>
+            </ul>
+            <button class="subject-btn" onclick="playAudio('math')"><a href="الرياضيات/الرياضيات.html">استمع</a></button>
+            <audio id="math" src="audio/math_lesson.mp3"></audio>
+        </section>
+    </main>
+
+    <footer>
+        <p>تم تصميم هذا الموقع من قبل محمد الكيلاني، الصف الأول الثانوي لغات، مدرسة نجيب محفوظ الرسمية المتميزة للغات.</p>
+    </footer>
+
+    <script src="knowledge window.js"></script>
+</body>
+</html>
